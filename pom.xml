@@ -12,20 +12,21 @@
   <url>https://github.com/pluralsight-projects/java-first-program</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11.0.2</maven.compiler.source>
-    <maven.compiler.target>11.0.2</maven.compiler.target>
-    <junit.jupiter.version>5.6.2</junit.jupiter.version>
-  </properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>11.0.2</maven.compiler.source>
+  <maven.compiler.target>11.0.2</maven.compiler.target>
+  <junit.jupiter.version>5.6.2</junit.jupiter.version>
+</properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>${junit.jupiter.version}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependencies>
+  <dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter-api</artifactId>
+<version>5.6.2</version>
+<scope>test</scope>
+</dependency>
+</dependencies>
 
   <build>
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
